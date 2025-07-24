@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx build host",
+    "build": "nx build host --prod",
     "start": "nx serve host",
     "test": "nx test host",
     "lint": "nx lint host",

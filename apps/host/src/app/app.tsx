@@ -2,8 +2,8 @@ import * as React from 'react';
 import NxWelcome from './nx-welcome';
 import { Link, Route, Routes } from 'react-router-dom';
 
-const DesignSystem = React.lazy(() => import('design-system/Module'));
 
+const DesignSystem = React.lazy(() => import('design_system/Module'));
 const Project1 = React.lazy(() => import('project1/Module'));
 const Project2 = React.lazy(() => import('project2/Module'));
 const Module1 = React.lazy(() => import('module1/Module'));
